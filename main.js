@@ -10,7 +10,7 @@ modal.classList.add("hidden");
 
 const click = (event) =>{
   const fig = event.target
-  // console.log(event.target.innerText)
+
   fig.innerText = EMPTY_HEART
   mimicServerCall()
     .then( res => {
